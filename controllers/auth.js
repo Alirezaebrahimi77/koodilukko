@@ -1,4 +1,4 @@
-exports.getProducts = async (req, res) => {
+exports.login = async (req, res) => {
     try{
         const userPassword = req.body.password;
         if(userPassword !== process.env.PASSWORD){
